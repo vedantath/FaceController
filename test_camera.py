@@ -12,7 +12,7 @@ while True:
     if not ret:
         break
 
-    cv2.imshow("GazeOS Webcam", frame)
+    cv2.imshow("Webcam", frame)
 
     # Press 'q' or 'ESC' to exit the loop
     if cv2.waitKey(1) & 0xFF == ord('q') or cv2.waitKey(1) & 0xFF == 27:
